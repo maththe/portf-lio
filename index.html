@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão de Link</title>
+    <style>
+          body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .botao-link {
+            width: 150px; 
+            height: 50px;
+            font-size: 16px;
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .botao-link:hover {
+            background-color: darkblue;
+        }
+    </style>
+    <script>
+        function redirecionarPagina(pagina) {
+            window.location.href = pagina;
+        }
+    </script>
+</head>
+<body>
+    <h1>Portifólio: Ciência da Computação</h1>
+    <p>Aluno: Matheus Antonio Bernardi <br> 1º Semestre
+    </p>
+    <button class="botao-link" onclick="redirecionarPagina('R. algaritmico.html')">Raciocínio Algarítmico</button><br>
+    <p></p>
+    <button class="botao-link" onclick="redirecionarPagina('Exp.criativa.html')">Experiência Criativa</button><br>
+    <p></p>
+    <button class="botao-link" onclick="redirecionarPagina('Lógica.html')">Lógica Matemática</button><br>
+    <p></p>
+    <button class="botao-link" onclick="redirecionarPagina('cyber.html')">Sistemas Cyberfísicos</button><br>
+    <p></p>
+    <button class="botao-link" onclick="redirecionarPagina('filosofia.html')">Filosofia</button>
+</body>
+</html>
+
+
+
